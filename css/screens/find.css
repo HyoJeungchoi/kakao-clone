@@ -1,0 +1,139 @@
+.name-header__icons span:nth-child(2) {
+    position: relative;
+}
+
+.find_dot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
+
+.find-icons {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icons__icon i {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 30px;
+}
+
+.find-icons__icon span {
+    font-size: 15px;
+    color: #2e363e;
+    width: 70px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.recommend-friends {
+    padding: 20px 0px;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+}
+
+.recommend-friends span {
+    display: block;
+    margin: 90px 0px;
+    text-align: center;
+}
+
+.open-chat {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+}
+
+.open-chat i {
+    margin-left: 5px;
+}
+
+.open-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.open-content__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.open-content__title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.open-content__hashtag {
+    margin: 10px 0px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+}
+
+.open-content__members {
+    display: flex;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.open-content__members img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.divider {
+    height: 17px;
+    width: 1.5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0px 5px;
+}
+
+.open-content__members span:last-child {
+    color: rgb(223, 71, 210);
+}
+
+.open-content__column:last-child img {
+    height: 110px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.open-content__column:last-child span {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    display: block;
+    padding: 5px 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+}
+
+.open-content__column:last-child span i {
+    margin-right: 5px;
+}

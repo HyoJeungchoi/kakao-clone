@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - KakaoTalk</title>
+    <title>Chats - KakaoTalk</title>
 </head>
 
 <body>
@@ -27,12 +27,12 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
-                <a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-lg"></i></a>
+                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-lg"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fa-regular fa-message fa-lg"></i>
+                    <i class="fa-solid fa-message fa-lg"></i>
                 </a>
             </li>
             <li class="nav__btn">
@@ -48,52 +48,29 @@
     </nav>
 
     <header class="name-header">
-        <h1 class="name-header__title">Friends</h1>
+        <h1 class="name-header__title">Chats</h1>
         <div class="name-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-regular fa-message fa-lg"></i></span>
             <span><i class="fa-solid fa-music fa-lg"></i></span>
             <span><i class="fa-solid fa-gear fa-lg"></i></span>
         </div>
     </header>
 
-    <a class="friends-display">
-        <i class="fa-solid fa-circle-info"></i>
-        Friends' Names Display
-        <i class="fa-solid fa-chevron-right"></i>
-    </a>
-
     <main class="main-space">
         <div class="user">
             <div class="user__column">
-                <img class="user__avatar user__avatar--xl" src="screenshots/photo.jpg" />
+                <img class="user__avatar" src="screenshots/photo.jpg" />
                 <div class="user__text">
                     <h4 class="user__name">HyoJeung Choi</h4>
-                    <!-- <h6 class="user__subtitle">this is a test text</h6> -->
+                    <h6 class="user__subtitle">Congratulation! You got it</h6>
                 </div>
             </div>
-            <div class="user__column">
+            <div class="user__column user__column--chat">
+                <span>21:22</span>
+                <span class="badge">1</span>
             </div>
         </div>
-
-        <div class="friends-channel">
-            <span>Channel</span>
-            <span><i class="fa-solid fa-chevron-up"></i></span>
-        </div>
-
-        <div class="user">
-            <div class="user__column">
-                <img class="user__avatar user__avatar--sm" src="screenshots/channel.JPG" />
-                <div class="user__text">
-                    <h4 class="user__name user__name--notbold">Channel</h4>
-                    <!-- <h6 class="user__subtitle">this is a test text</h6> -->
-                </div>
-            </div>
-            <div class="user__column">
-                <span>2</span>
-                <span><i class="fa-solid fa-chevron-right"></i></span>
-            </div>
-        </div>
-
     </main>
 
     <script src="https://kit.fontawesome.com/5a78fc87bd.js" crossorigin="anonymous"></script>
