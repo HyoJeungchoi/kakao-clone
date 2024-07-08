@@ -1,4 +1,4 @@
-.name-header__icons span:nth-child(2) {
+.name-header__span3 {
     position: relative;
 }
 
@@ -10,32 +10,6 @@
     position: absolute;
     right: -5px;
     top: -5px;
-}
-
-.find-icons {
-    padding: 25px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.find-icons__icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.find-icons__icon i {
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.8);
-    margin-bottom: 30px;
-}
-
-.find-icons__icon span {
-    font-size: 15px;
-    color: #2e363e;
-    width: 70px;
-    text-align: center;
-    font-weight: 500;
 }
 
 .recommend-friends {

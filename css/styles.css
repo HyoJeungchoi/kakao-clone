@@ -10,16 +10,17 @@
 @import "components/name-header.css";
 @import "components/user.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/main-space.css";
 
 /* Screens */
-@import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
-
+@import "screens/login.css";
+@import "screens/more.css";
 
 body {
     font-family: "Open Sans", sans-serif;
     height: 1000vh;
+}
     
-        .main-space {
-            padding: 0px var(--space);

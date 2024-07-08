@@ -1,0 +1,62 @@
+.fa-circle-exclamation {
+    color: rgb(255, 120, 96);
+}
+
+.more__dot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: 15px;
+}
+
+.find-icons__icon {
+    position: relative;
+}
+
+.more-icons__1 {
+    margin-top: 30px;
+}
+
+.more-icons__2 {
+    margin-top: 30px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.suggestions__text {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 30px;
+}
+
+.suggestions__icons {
+    display: flex;
+}
+
+.suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.suggestions__icon img {
+    height: 65px;
+    width: 65px;
+    margin-bottom: 20px;
+}
+
+.suggestions__icon span {
+    font-size: 15px;
+    color: #2e363e;
+    font-weight: 500;
+}
