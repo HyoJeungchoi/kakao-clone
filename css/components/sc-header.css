@@ -1,0 +1,26 @@
+.sc-header {
+    padding: 45px 10px 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sc-header-column {
+    width: 33%;
+}
+
+.sc-header-column:nth-child(2) {
+    text-align: center;
+}
+
+.sc-header-column:last-child {
+    text-align: end;
+}
+
+.sc-header-column h1 {
+    font-weight: 600;
+    font-size: 23px;
+}

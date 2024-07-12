@@ -12,15 +12,19 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/main-space.css";
+@import "components/sc-header.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/login.css";
 @import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/chat.css";
 
 body {
     font-family: "Open Sans", sans-serif;
-    height: 1000vh;
+    height: 100vh;
 }
     

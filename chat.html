@@ -5,10 +5,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - KakaoTalk</title>
+    <title>Chat - KakaoTalk</title>
 </head>
 
-<body>
+<body class="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -23,6 +23,19 @@
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
+
+    <header class="sc-header">
+        <div class="sc-header-column">
+            <i class="fa-solid fa-chevron-left fa-xl"></i>
+        </div>
+        <div class="sc-header-column">
+            <h1>HyoJeung.Choi</h1>
+        </div>
+        <div class="sc-header-column">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            <i class="fa-solid fa-bars fa-xl"></i>
+        </div>
+    </header>
 
     <nav class="nav">
         <ul class="nav__list">
@@ -47,32 +60,35 @@
         </ul>
     </nav>
 
-    <header class="name-header">
-        <h1 class="name-header__title">Chats</h1>
-        <div class="name-header__icons">
-            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="fa-regular fa-message fa-lg"></i></span>
-            <span><i class="fa-solid fa-music fa-lg"></i></span>
-            <span><a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
-        </div>
-    </header>
+    <div class="chat-date">
+        <div class="chat-date-title">Friday, July 12, 2024</div>
+    </div>
 
-    <main class="main-space"><a href="chat.html">
-        <div class="user">
-            <div class="user__column">
-                <img class="user__avatar" src="screenshots/photo.jpg" />
-                <div class="user__text">
-                    <h4 class="user__name">HyoJeung Choi</h4>
-                    <h6 class="user__subtitle">Congratulation! You got it</h6>
-                </div>
-            </div>
-            <div class="user__column user__column--chat">
-                <span>21:22</span>
-                <span class="badge">1</span>
+    <div class="user-chat">
+        <div class="user__column">
+            <img class="user__avatar" src="screenshots/photo.jpg" />
+            <div class="user__text">
+                <h4 class="user__name">HyoJeung Choi</h4>
+                <div class="user__subtitle">Congratulation! You got it</div>
             </div>
         </div>
-    </a>
-    </main>
+        <div class="user__column">
+            <span>21:22</span>
+        </div>
+    </div>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message" />
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
 
     <div class="no-mobile">
         <span>Your Screen is super big</span>

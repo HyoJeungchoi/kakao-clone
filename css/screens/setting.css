@@ -1,0 +1,45 @@
+.setting-lists {
+    margin-top: 100px;
+}
+
+.setting-list {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.setting-list span {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.setting-icon {
+    padding: 3px 6px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.setting-list i {
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.setting-list-alt2 {
+    text-align: end;
+}
+
+.setting-black {
+    color: black;
+}
+
+.setting-list-alt span:last-child {
+    position: absolute;
+    right: 0px;
+    color: rgb(150, 150, 150);
+}
+
+.setting-icon {
+    display: inline;
+}

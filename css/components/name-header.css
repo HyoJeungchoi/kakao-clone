@@ -18,3 +18,16 @@
 .name-header__icons {
     color: #2e363e;
 }
+@keyframes rotate {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.name-header__icons .fa-gear {
+    animation: rotate 2s linear infinite;
+}
